@@ -1,4 +1,4 @@
-baseurl = "https://makapx.github.io/"
+baseurl = "https://makapx.github.io/makapx/"
 theme = "hugo_theme_pickles"
 languageCode = "it-IT"
 Title = "The perks of being a sunflower"
