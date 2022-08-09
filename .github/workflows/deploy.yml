@@ -18,7 +18,7 @@ jobs:
           hugo-version: "0.101.0"
 
       - name: Build
-        run: hugo --minify --baseURL https://makapx.github.io/makapx/
+        run: hugo --minify --baseURL https://makapx.github.io
 
       - name: Add no jekyll
         run: touch ./public/.nojekyll
