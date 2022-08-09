@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Merriweather'),
+        url('../fonts/Merriweather-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato'),
+        url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato'),
+        url('../fonts/Lato-Bold.ttf') format('truetype');
+}
+
+h1, h2, h3,
+h1>a, h2>a, h3>a,
+.l-header .c-title.p-title{
+    font-family: "Merriweather", serif;
+}
+
+p, div, .p-subtitle {
+    font-family: "Lato", sans-serif;
+}
+
+.l-header, .l-footer {
+    background-color: #222;
+}
+.l-header .p-subtitle,
+.l-header .p-title__link {
+    color: #e0e0e0;
+}
+
+.p-author {
+    background: #f6f6f6;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.l-nav.p-menu {
+    max-width: 100%;
+    width: 100%;
+    margin: 100px 0 0 0;
+    background-color: #222;
+}
+
+.l-nav.p-menu .p-menu__lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-nav.p-menu .p-menu__lists > li {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.l-nav.p-menu .p-menu__lists>li a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .l-nav.p-menu .p-menu__lists{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
