@@ -1,5 +1,5 @@
 baseurl = "https://makapx.github.io/"
-theme = "hugo_theme_pickles"
+theme = "papermod"
 languageCode = "it-IT"
 Title = "The perks of being a sunflower"
 # Copyright notice. This is displayer in the footer.
